@@ -7,7 +7,7 @@ app = QtWidgets.QApplication(["tray_icon_test"])
 # app.setAttribute(QtCore.Qt.AA_UseHighDpiPixmaps)
 # app.setQuitOnLastWindowClosed(False)
 
-icon_file = os.path.join(os.path.dirname(__file__), "example.svg")
+icon_file = ("example.svg")
 print(icon_file)
 icon = QtGui.QIcon.fromTheme(icon_file)
 tray_icon = QtWidgets.QSystemTrayIcon(icon)
