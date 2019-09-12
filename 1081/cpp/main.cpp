@@ -5,12 +5,11 @@
 int main(int argc, char *argv[])
 {
     QApplication app(argc, argv);
-    printf("thats all I have to do in a linux\n");
-    qmlRegisterType<CustomView>("CustomView", 1, 0, "CustomView"); //why is this guydoing this
+    qmlRegisterType<CustomView>("CustomView", 1, 0, "CustomView");
     QQmlApplicationEngine engine;
     engine.load(QUrl("main.qml"));
 
-    if (!engine.rootObjects().empty() )
+    if (engine.rootObjects().empty() )
     {
         return -1;
     }
