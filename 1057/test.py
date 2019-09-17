@@ -32,7 +32,7 @@ class App:
         print("FINISHED")
         self.reply.close()
         self.reply.finished.disconnect()
-        self.reply.deleteResource()
+        self.reply.deleteLater()
         self.request = self.reply = None
 
 App('http://www.google.com').run()
