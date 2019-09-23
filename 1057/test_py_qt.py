@@ -20,7 +20,7 @@ class App:
         print("TICK")
         if self.request is not None:
             return
-        objgraph.show_growth()
+        print(objgraph.typestats())
 
         self.request = QtNetwork.QNetworkRequest()
         self.request.setUrl(QtCore.QUrl(self.url))
