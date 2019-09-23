@@ -19,7 +19,6 @@ void GraphicsView::sizeHint()
     this->setSceneRect(500, 500, 500, 500);
 }
 
-
 GraphicsView::~GraphicsView(){}
 
 Test::Test()
