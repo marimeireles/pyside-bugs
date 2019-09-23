@@ -60,5 +60,6 @@ App('http://www.google.com').run()
     #/sources/pyside2/PySide2/QtCore/typesystem_core_common.xml
     #QNetworkAccessManager's get function
     #it might be a problem on this shiboken of this class
+    #(envQt5.133d_build/py3.7-qt5.13.1-64bit-debug/pyside2/PySide2/QtNetwork/PySide2/QtNetwork/qnetworkrequest_wrapper.cpp)
     #it might be a problem on the cpp implementation (that I don't even
     #know where it is :/)
